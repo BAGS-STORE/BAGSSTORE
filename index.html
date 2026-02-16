@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="متجر BAGS STORE لبيع الحقائب النسائية والمدرسية والرسمية وحقائب السفر بأفضل الأسعار في اليمن.">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAGS STORE - متجر الحقائب</title>
+    <!-- Google Fonts for Premium Look -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="main-header">
+        <div class="overlay">
+            <div class="container">
+                <h1 class="logo">BAGS STORE</h1>
+                <p class="tagline">أناقتك تبدأ من هنا</p>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="#women">حقائب نسائية</a></li>
+                        <li><a href="#school">حقائب مدرسية</a></li>
+                        <!-- <li><a href="#formal">حقائب رسمية</a></li>
+                        <li><a href="#travel">حقائب سفر</a></li>  -->
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+        
+        <!-- Women Bags Section -->
+        <section id="women" class="product-section">
+            <div class="section-header">
+                <h2>حقائب نسائية</h2>
+                <div class="divider"></div>
+            </div>
+            <div id="womenProducts" class="products-grid">
+                <!-- Products will be injected here by JavaScript -->
+            </div>
+        </section>
+<!-- #region Events -->
+        <!-- School Bags Section -->
+        <section id="school" class="product-section">
+            <div class="section-header">
+                <h2>حقائب مدرسية</h2>
+                <div class="divider"></div>
+            </div>
+            <div id="schoolProducts" class="products-grid">
+                <!-- Products will be injected here by JavaScript -->
+            </div>
+        </section>
+
+        <!-- Formal Bags Section -->
+        <!-- <section id="formal" class="product-section">
+            <div class="section-header">
+                <h2>حقائب رسمية</h2>
+                <div class="divider"></div>
+            </div>
+            <div id="formalProducts" class="products-grid"> -->
+                <!-- Products will be injected here by JavaScript -->
+            <!-- </div>
+        </section> -->
+
+        <!-- Travel Bags Section -->
+        <!-- <section id="travel" class="product-section">
+            <div class="section-header">
+                <h2>حقائب سفر</h2>
+                <div class="divider"></div>
+            </div>
+            <div id="travelProducts" class="products-grid"> -->
+                <!-- Products will be injected here by JavaScript -->
+            <!-- </div>
+        </section> -->
+<!-- #endregion -->
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="contact-info">
+                    <h3>تواصل معنا</h3>
+                    <p>للطلب والاستفسار، نحن هنا لخدمتكم</p>
+                    <div class="social-links">
+                        <a href="https://wa.me/967730651230" target="_blank" class="btn-contact whatsapp">واتساب</a>
+                        <!-- <a href="https://t.me/730651230" target="_blank" class="btn-contact telegram">تليجرام</a> -->
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2026 BAGS STORE. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Product Modal/Lightbox (Optional implementation for "View" button) -->
+    <div id="productModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <img id="modalImg" src="" alt="Product Image">
+            <h3 id="modalTitle"></h3>
+            <p id="modalPrice" class="price"></p>
+            <div class="modal-actions">
+                <a id="modalWhatsapp" href="#" target="_blank" class="btn-whatsapp">طلب عبر واتساب</a>
+                <!-- <a id="modalTelegram" href="#" target="_blank" class="btn-telegram">طلب عبر تليجرام</a> -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
